@@ -14,7 +14,7 @@ export const Header = () => {
   const handleClickLink = (id: number) => setLink(id);
 
   return (
-    <Flex direction="row" css={{ justifyContent: 'flex-start', gap: 20 }}>
+    <Flex direction="row" css={{ justifyContent: 'flex-start', gap: 20, paddingBottom: 60 }}>
       <Text type="nameHeader">nicolas l</Text>
       {categories.map(({ id, name }) => (
         <Link key={id} active={link === id} onClick={() => handleClickLink(id)}>
