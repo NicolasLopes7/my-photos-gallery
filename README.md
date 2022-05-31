@@ -1,4 +1,4 @@
-## my photos gallery
+## my photos gallery 🪄
 
 this project was created to test some frontend techs and improve my styling skills. some of the techs. 💫
 we'll be using:
